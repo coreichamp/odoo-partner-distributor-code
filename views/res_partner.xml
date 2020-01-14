@@ -10,7 +10,7 @@
                 <field name="distributor_code" placeholder="Distributor Code..."/>
             </field> -->
             
-            <xpath expr="//field[@name='name']" position="after">
+            <xpath expr="//field[@name='parent_id']" position="before">
                  <field name="distributor_code" placeholder="Distributor Code..."/>
             </xpath>
             
@@ -26,9 +26,11 @@
                 <field name="distributor_code" placeholder="Distributor Code..."/>
             </field> -->
             
-            <xpath expr="//field[@name='name']" position="after">
+            <xpath expr="//field[@name='parent_id']" position="before">
                  <field name="distributor_code" placeholder="Distributor Code..."/>
             </xpath>
+            
+            
         </field>
     </record>
 
@@ -41,7 +43,7 @@
                 <field name="distributor_code" placeholder="Distributor Code..."/>
             </field> -->
             
-            <xpath expr="//field[@name='name']" position="after">
+            <xpath expr="//field[@name='parent_id']" position="before">
                  <field name="distributor_code" placeholder="Distributor Code..."/>
             </xpath>
         </field>
